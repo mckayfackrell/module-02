@@ -13,10 +13,6 @@ header {
   text-align: right;
   background: #13293d;
   color: #fff;
-}* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
 }
 
 .header h1 .name {
