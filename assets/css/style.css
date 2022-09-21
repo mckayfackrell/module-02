@@ -8,7 +8,7 @@ body {
   background-color: #fff;
 }
 
-header {
+.header {
   padding: 40px;
   text-align: right;
   background: #13293d;
@@ -21,4 +21,26 @@ header {
 
 .header h1 {
   display: inline-block;
+}
+
+.card-column {
+text-align: right;
+height: 20%;
+width: 20%;
+padding: 10px;
+margin: auto;
+}
+
+.card-column img{
+width: 60px;
+}
+
+.card-body img{
+  width: 600px;
+  }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
