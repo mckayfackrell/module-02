@@ -14,7 +14,7 @@ N/A
 McKay Fackrell is the original creator and owner of the code.
 
 ## License
-Please refer to the LICENCE in the repo.
+Please refer to the LICENSE in the repo.
 
 ## Project status
 A week long course that should be submitted on September 26, 2022. Once submitted changes will most likely cease as new repositories going over new coding features will be added and more focus will be dedicated to them.
