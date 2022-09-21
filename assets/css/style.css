@@ -5,14 +5,36 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: rgb(152, 165, 189);
 }
 
 .header {
-  padding: 40px;
+  background-color: #13293d;
+}
+
+
+.header h1 .name {
+  padding: 20px;
   text-align: right;
-  background: #13293d;
   color: #fff;
+}
+
+.header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+.header nav ul {
+  list-style-type: none;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+
 }
 
 img{
