@@ -10,20 +10,22 @@ body {
 
 .header {
   background-color: #13293d;
+  color: white;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-.header h1 .name {
-  padding: 20px;
-  text-align: right;
-  color: #fff;
+.header h1{
+display: inline-block;
+font-size: 30px;
+padding: 20px;
 }
 
 .header nav {
-  padding-top: 15px;
+  padding-top: 25px;
   margin-right: 20px;
   float: right;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
 }
 
@@ -34,9 +36,32 @@ body {
 .header nav ul li {
   display: inline-block;
   margin-left: 25px;
-
 }
 
+#project-1{
+  position: relative;
+  left: 200px;
+}
+
+#project-2{
+  position: relative;
+  left: 200px;
+}
+
+#project-3{
+  position: relative;
+  left: 200px;
+}
+
+#project-4{
+  position: relative;
+  left: 200px;
+}
+
+#project-5{
+  position: relative;
+  left: 200px;
+}
 img{
   height: 80%;
   width: 80%;
