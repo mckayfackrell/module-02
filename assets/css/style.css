@@ -38,14 +38,17 @@ padding: 20px;
   margin-left: 25px;
 }
 
-/*
-img{
+.hero{
+  background-image: url("../images/alligator.jpg");
+  background-size: cover;
+  min-height: 50vh;
+  background-position: center;
+}
+
+.About-Me {
   display: block;
-  height: 150px;
-  width: 150px;
   object-fit: contain;
 }
-*/
 
 #project-1{
   position: relative;
@@ -62,12 +65,13 @@ img{
 
 .project-1 {
   min-height: 100px;
+  background-image: url("../assets/images/jellyfish.jpg");
 }
 
 .project-1 img{
   display: block;
-  height: 150px;
-  width: 150px;
+  max-height: 30vh;
+  max-width: 100%;
   object-fit: fill;
 }
 
@@ -75,7 +79,7 @@ img{
   width: 200px;
   margin: 10px;
   border: 3px solid I#333;
-  background-color: white;
+  background-image: url("../assets/images/jellyfish.jpg");
 }
 
 .project-2 img{
@@ -126,3 +130,4 @@ img{
   width: 150px;
   object-fit: contain;
 }
+
