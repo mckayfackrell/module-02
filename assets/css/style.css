@@ -62,9 +62,8 @@ a:hover {
   flex-wrap: wrap;
   position: relative;
   text-align: center;
-  background-color: green;
   border-color: rgb(106, 163, 198);
-  border: 5px solid rgb(106, 163, 198);
+  border: 10px solid rgb(106, 163, 198);
   margin-left: 60px;
   margin-right: 40px;
 }
@@ -78,6 +77,8 @@ background-color: rgb(106, 163, 198);
 
 
 
+
+
 .about-me {
   display: block;
   object-fit: contain;
@@ -88,12 +89,22 @@ background-color: rgb(106, 163, 198);
   left: 200px;
 }
 
-/* .work-section {
-  width: 200px;
-  margin: 10px;
-  border: 3px solid I#333;
+.work-section {
+  /* width: 200px; */
+  /* margin: 10px; */
+  border: 10px solid I#333;
   background-color: black;
-}  */
+} 
+
+.work-section:first-child{
+  
+}
+
+flex column row
+
+.work-section img{
+  max-width: 100%;
+}
 
 .project-1 {
  min-height: 100px;
@@ -101,14 +112,14 @@ background-color: rgb(106, 163, 198);
 
 .project-1 img {
   display: block;
-  max-height: 30vh;
   max-width: 100%;
   object-fit: fill;
 }
 
 .project-2 {
   min-width: none;
-  max-width: 100%;
+  /* max-height: 30px; */
+  width: 50px !important;
 }
 
 .project-2 img {
