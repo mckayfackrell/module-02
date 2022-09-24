@@ -153,3 +153,20 @@ background-color: rgb(106, 163, 198);
   width: 100%;
   object-fit: fill;
 }
+
+.contact-me {
+  border-right: solid rgb(106, 163, 198) 4px;
+  
+  background-color: aqua;
+  flex-wrap: wrap;
+  position: left;
+}
+
+.contact-me nav ul {
+  list-style-type: none;
+}
+
+.contact-me nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
