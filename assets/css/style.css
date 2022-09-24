@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(106, 163, 198);
+  background-color: teal;
 }
 
 .header {
@@ -15,10 +15,10 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.header h1{
-display: inline-block;
-font-size: 30px;
-padding: 20px;
+.header h1 {
+  display: inline-block;
+  font-size: 30px;
+  padding: 20px;
 }
 
 .header nav {
@@ -38,37 +38,68 @@ padding: 20px;
   margin-left: 25px;
 }
 
-.hero{
-  background-image: url("../images/alligator.jpg");
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  /* background-image: url("../images/alligator.jpg"); */
   background-size: cover;
   min-height: 50vh;
   background-position: center;
 }
+
+.hero img {
+  min-height: 150px;
+}
+
+.container {
+  flex-wrap: wrap;
+  position: relative;
+  text-align: center;
+  background-color: green;
+  border-color: rgb(106, 163, 198);
+  border: 5px solid rgb(106, 163, 198);
+  margin-left: ;
+}
+
+.bottom-left {
+position: absolute;
+bottom: 24px;
+left: 0px;
+background-color: rgb(106, 163, 198);
+}
+
+
 
 .About-Me {
   display: block;
   object-fit: contain;
 }
 
-#project-1{
+#project-1 {
   position: relative;
   left: 200px;
 }
 
-.work-section{
+.work-section {
   width: 200px;
   margin: 10px;
   border: 3px solid I#333;
   background-color: black;
-}
-
+} 
 
 .project-1 {
-  min-height: 100px;
-  background-image: url("../assets/images/jellyfish.jpg");
+ min-height: 1000px;
+/* background-image: url("../images/jellyfish.jpg"); */
 }
 
-.project-1 img{
+.project-1 img {
   display: block;
   max-height: 30vh;
   max-width: 100%;
@@ -78,11 +109,11 @@ padding: 20px;
 .project-2 {
   width: 200px;
   margin: 10px;
-  border: 3px solid I#333;
-  background-image: url("../assets/images/jellyfish.jpg");
+  border: 3px solid orangered;
+/* background-image: url("../images/jellyfish.jpg"); */
 }
 
-.project-2 img{
+.project-2 img {
   display: block;
   height: 150px;
   width: 150px;
@@ -96,7 +127,7 @@ padding: 20px;
   background-color: white;
 }
 
-.project-3 img{
+.project-3 img {
   display: block;
   height: 150px;
   width: 150px;
@@ -110,7 +141,7 @@ padding: 20px;
   background-color: white;
 }
 
-.project-4 img{
+.project-4 img {
   display: block;
   height: 150px;
   width: 150px;
@@ -124,10 +155,9 @@ padding: 20px;
   background-color: white;
 }
 
-.project-5 img{
+.project-5 img {
   display: block;
   height: 150px;
   width: 150px;
   object-fit: contain;
 }
-
