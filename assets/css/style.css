@@ -8,6 +8,13 @@ body {
   background-color: white;
 }
 
+.hero {
+  background-image: url("../images/alligator.jpg");
+  background-size: cover;
+  min-height: 40vh;
+  background-position: center;
+}
+
 .header {
   background-color: #13293d;
   color: white;
@@ -47,18 +54,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.hero {
-  /* background-image: url("../images/alligator.jpg"); */
-  background-size: cover;
-  min-height: 50vh;
-  background-position: center;
-}
-
-.hero img {
- width: 450px;
-
-}
-
 .container {
   flex-wrap: wrap;
   position: relative;
@@ -75,23 +70,7 @@ left: 0px;
 background-color: rgb(106, 163, 198);
 }
 
-
-
-
-
-/* .about-me {
-  display: block;
-  object-fit: contain;
-}
-
-#project-1 {
-  position: relative;
-  left: 200px;
-} */
-
 .work-section {
-  /* width: 200px; */
-/* margin: 10px; */ */
   border: 10px solid I#333;
   background-color: black;
 } 
@@ -99,8 +78,6 @@ background-color: rgb(106, 163, 198);
 .work-section:first-child{
   max-width: 50%;
 }
-
-flex column row
 
 .work-section img{
   max-width: 100%;
@@ -118,8 +95,7 @@ flex column row
 
 .project-2 {
   min-width: none;
-  /* max-height: 30px; */
-  width: 50px !important;
+  max-height: 30px;
 }
 
 .project-2 img {
@@ -178,7 +154,7 @@ flex column row
   padding: 20px;
 }
 
-.contact-me nav {
+.footer nav {
   padding-top: 25px;
   margin-right: 20px;
   float: right;
