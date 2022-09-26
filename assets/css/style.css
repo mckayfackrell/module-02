@@ -90,7 +90,7 @@ background-color: rgb(106, 163, 198);
 }
 
 .project img {
-   display: block;
+  display: block;
   height: 30vh;
   width: 100%;
   object-fit: fill;
