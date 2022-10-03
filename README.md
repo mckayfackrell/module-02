@@ -13,6 +13,9 @@ N/A
 ## URL and Screenshot
 https://mckayfackrell.github.io/module-02/
 
+<img width="1468" alt="Screen Shot 2022-10-03 at 12 40 09" src="https://user-images.githubusercontent.com/110206514/193653637-655c2ccf-3ee1-474e-b7b0-6b7d772a9bfb.png">
+
+
 ## Authors and acknowledgment
 McKay Fackrell is the original creator and owner of the code.
 
