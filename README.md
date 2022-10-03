@@ -10,6 +10,9 @@ N/A
 
  The portfolio provides the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them.
 
+## URL and Screenshot
+https://mckayfackrell.github.io/module-02/
+
 ## Authors and acknowledgment
 McKay Fackrell is the original creator and owner of the code.
 
